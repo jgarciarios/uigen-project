@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm audit *)",
+      "Bash(npm list *)",
+      "Bash(npm view *)",
+      "Bash(node -e \"const v=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const vs=JSON.parse\\(v\\); console.log\\(vs.filter\\(x=>x.startsWith\\('5.'\\)\\).slice\\(-10\\).join\\('\\\\n'\\)\\);\")",
+      "Bash(npm install *)",
+      "Bash(node -e \"const p=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const j=JSON.parse\\(p\\); console.log\\(JSON.stringify\\({dependencies: j.dependencies, devDependencies: j.devDependencies}, null, 2\\)\\);\")",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright"
+    ]
+  }
+}

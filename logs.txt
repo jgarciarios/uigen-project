@@ -1,0 +1,28 @@
+
+> uigen@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.15
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.5:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 968ms
+ ✓ Compiled /middleware in 288ms (234 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 2.6s (1539 modules)
+ GET / 200 in 3152ms
+ ✓ Compiled in 597ms (630 modules)
+ ✓ Compiled /favicon.ico in 297ms (908 modules)
+ GET /favicon.ico 200 in 376ms
+ GET / 200 in 471ms
+ GET /favicon.ico 200 in 12ms
+ ✓ Compiled in 95ms (630 modules)
+ GET / 200 in 14ms
+ GET / 200 in 46ms
+ ✓ Compiled /api/chat in 306ms (1576 modules)
+No ANTHROPIC_API_KEY found, using mock provider
+ POST /api/chat 200 in 12933ms
+ ✓ Compiled in 211ms (1522 modules)
+ GET / 200 in 126ms
